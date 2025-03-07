@@ -1,0 +1,100 @@
+<<<<<<< HEAD
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+}
+
+.contentA{
+ border-right: 1px solid black;
+ border-top: 1px solid black;
+ padding: 50px 20px;
+}
+
+.contentB{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    padding: 50px 30px;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.span {
+    opacity: 0.5;
+}
+
+.tieude {
+    text-align: center;
+    width: 90%;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+=======
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+}
+
+.contentA{
+ border-right: 1px solid black;
+ border-top: 1px solid black;
+ padding: 50px 20px;
+}
+
+.contentB{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    padding: 50px 30px;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.span {
+    opacity: 0.5;
+}
+
+.tieude {
+    text-align: center;
+    width: 90%;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+>>>>>>> 4dfb3db6925012c9c83208c848be51bfe6b1a876
+}

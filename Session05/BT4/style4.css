@@ -1,0 +1,32 @@
+<<<<<<< HEAD
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p1 {
+    width: 30%;
+}
+
+#p2 {
+    width: 70%;
+}
+
+h1, h3 {
+    font-weight: 200;
+=======
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p1 {
+    width: 30%;
+}
+
+#p2 {
+    width: 70%;
+}
+
+h1, h3 {
+    font-weight: 200;
+>>>>>>> 4dfb3db6925012c9c83208c848be51bfe6b1a876
+}

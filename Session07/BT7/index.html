@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button{
+            color: white;
+            text-align: right;
+        }
+        #a{
+            background-color: grey;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            padding: 10px;
+        }
+        #b{
+            background-color: blue;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            padding: 10px;
+        }
+        .head{
+            border: 1px solid whitesmoke;
+            border-radius: 5px;
+            width: 400px;
+            padding: 10px;
+            
+        }
+        div{
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .name{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="name">
+            <h2>New Message to @mdo</h2>
+            <h2>X</h2>
+        </div>
+        <hr>
+        <div class="h">
+            <form action="name">Recipient:</form>
+            <input type="text" id="name" placeholder="@mdo">
+        </div>
+        <br>
+        <div class="b">
+            <form action="message">Message:</form>
+            <textarea name="message" id="message" cols="20" rows="3"></textarea>
+        </div>
+        <br><hr>
+        <div class="button">
+        <button id="a">Close</button>
+        <button id="b">Send message</button>
+        </div>
+        
+    </div>
+</body>
+</html>

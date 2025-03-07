@@ -1,0 +1,42 @@
+<<<<<<< HEAD
+h1 {
+    color: blueviolet;
+}
+table {
+    width: 100%;
+}
+
+#tr1 {
+    width: 1%;
+    background-color: chartreuse;
+}
+
+#tr2 {
+    width: 99%;
+    background-color: antiquewhite;
+}
+
+h1, h2, h3 {
+    font-family: sans-serif;
+=======
+h1 {
+    color: blueviolet;
+}
+table {
+    width: 100%;
+}
+
+#tr1 {
+    width: 1%;
+    background-color: chartreuse;
+}
+
+#tr2 {
+    width: 99%;
+    background-color: antiquewhite;
+}
+
+h1, h2, h3 {
+    font-family: sans-serif;
+>>>>>>> 4dfb3db6925012c9c83208c848be51bfe6b1a876
+}

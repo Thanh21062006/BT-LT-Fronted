@@ -1,0 +1,106 @@
+<<<<<<< HEAD
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    padding: 30px 20px;
+    background: linear-gradient(to bottom, #514561, #857896);
+}
+
+.contentA {
+    display: flex;
+}
+
+.contentB {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.A {
+    padding-right: 20px;
+}
+
+label{
+    color: white;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+input{
+    border: 1px solid rgb(128, 95, 95);
+    border-radius: 2px;
+    background: linear-gradient(to bottom, #514561, #857896);
+}
+
+textarea {
+    border: 1px solid rgb(128, 95, 95);
+    border-radius: 2px;
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(to bottom, #514561, #857896);
+}
+
+button{
+    background-color: white;
+    color: rgb(82, 141, 143);
+    padding: 10px 10px;
+    border-radius: 2px;
+    border: none;
+    letter-spacing: 2px;
+=======
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    padding: 30px 20px;
+    background: linear-gradient(to bottom, #514561, #857896);
+}
+
+.contentA {
+    display: flex;
+}
+
+.contentB {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.A {
+    padding-right: 20px;
+}
+
+label{
+    color: white;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+input{
+    border: 1px solid rgb(128, 95, 95);
+    border-radius: 2px;
+    background: linear-gradient(to bottom, #514561, #857896);
+}
+
+textarea {
+    border: 1px solid rgb(128, 95, 95);
+    border-radius: 2px;
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(to bottom, #514561, #857896);
+}
+
+button{
+    background-color: white;
+    color: rgb(82, 141, 143);
+    padding: 10px 10px;
+    border-radius: 2px;
+    border: none;
+    letter-spacing: 2px;
+>>>>>>> 4dfb3db6925012c9c83208c848be51bfe6b1a876
+}

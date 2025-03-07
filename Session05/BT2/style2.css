@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+* {
+    background-color: rgb(30, 27, 27);
+}
+
+h1 {
+    color: aliceblue;
+}
+
+p {
+    color: burlywood;
+    text-decoration: underline dotted aliceblue;
+=======
+* {
+    background-color: rgb(30, 27, 27);
+}
+
+h1 {
+    color: aliceblue;
+}
+
+p {
+    color: burlywood;
+    text-decoration: underline dotted aliceblue;
+>>>>>>> 4dfb3db6925012c9c83208c848be51bfe6b1a876
+}

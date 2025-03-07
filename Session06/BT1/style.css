@@ -1,0 +1,108 @@
+<<<<<<< HEAD
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Tieude {
+    background-color:rgb(171, 104, 233);
+    text-align: center;
+    color: white;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.link a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.link li{
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello img{
+    border: 2px solid darkorchid;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+}
+
+.A {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.B {
+    background-color: aquamarine;
+    padding-top: 10px;
+    padding-bottom: 10px;
+=======
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Tieude {
+    background-color:rgb(171, 104, 233);
+    text-align: center;
+    color: white;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.link a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.link li{
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello img{
+    border: 2px solid darkorchid;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+}
+
+.A {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.B {
+    background-color: aquamarine;
+    padding-top: 10px;
+    padding-bottom: 10px;
+>>>>>>> 4dfb3db6925012c9c83208c848be51bfe6b1a876
+}

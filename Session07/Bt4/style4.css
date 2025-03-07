@@ -1,0 +1,29 @@
+.tieude {
+    display: flex;
+    align-items: center;
+}
+
+.A {
+    width: 5px;
+    height: 30px;
+    background-color: chartreuse;
+}
+
+.B {
+    margin-left: 20px;
+}
+
+.content {
+    position: relative; bottom: 60px; left: 20px;
+    width: 23%;
+    text-align: center;
+    color: white;
+}
+
+.C {
+    height: 300px;
+}
+
+.content2 {
+    width: 30%;
+}

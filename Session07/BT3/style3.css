@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+}
+
+.tieude {
+    display: flex;
+    align-items: center;
+}
+
+.tieude img{
+    border: 2px solid green;
+    border-radius: 50%;
+}
+
+.B {
+    margin-left: 10px;
+}
+
+h3 {
+    opacity: 0.7;
+}
+
+.content span{
+    color:darkslategrey;
+}

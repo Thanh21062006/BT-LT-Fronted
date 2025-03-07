@@ -1,0 +1,118 @@
+<<<<<<< HEAD
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.main{
+    background-color: rgb(241, 234, 234);
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.value{
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    border: 1px;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+
+h1{
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    width: 80%;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.B {
+    padding-left: 15px;
+}
+
+.A {
+    padding: 10px 15px;
+}
+
+input {
+    width: 90%;
+=======
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.main{
+    background-color: rgb(241, 234, 234);
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.value{
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    border: 1px;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+
+h1{
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    width: 80%;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.B {
+    padding-left: 15px;
+}
+
+.A {
+    padding: 10px 15px;
+}
+
+input {
+    width: 90%;
+>>>>>>> 4dfb3db6925012c9c83208c848be51bfe6b1a876
+}

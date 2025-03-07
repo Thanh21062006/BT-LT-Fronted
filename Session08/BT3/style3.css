@@ -1,0 +1,88 @@
+<<<<<<< HEAD
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.content {
+    display: flex;
+    margin-top: 40px;
+}
+
+.content1 {
+    margin-right: 30px;
+    border-right: 1px solid rgb(210, 177, 177);
+    padding-right: 30px;
+}
+
+.title {
+    width: 200px;
+    height: 40px;
+    opacity: 0.8;
+    border-bottom: 2px solid green;
+}
+
+img {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+span {
+    color: #424549;
+}
+
+button {
+    border: 2px solid #F78583;
+    color: #F78583;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+=======
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.content {
+    display: flex;
+    margin-top: 40px;
+}
+
+.content1 {
+    margin-right: 30px;
+    border-right: 1px solid rgb(210, 177, 177);
+    padding-right: 30px;
+}
+
+.title {
+    width: 200px;
+    height: 40px;
+    opacity: 0.8;
+    border-bottom: 2px solid green;
+}
+
+img {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+span {
+    color: #424549;
+}
+
+button {
+    border: 2px solid #F78583;
+    color: #F78583;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+>>>>>>> 4dfb3db6925012c9c83208c848be51bfe6b1a876
+}
