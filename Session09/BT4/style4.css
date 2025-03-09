@@ -1,0 +1,43 @@
+body {
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    height: 200px;
+    width: 60%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contentB {
+    display: flex;
+    height: 100%;
+    margin: 10px 0px;
+}
+
+.A {
+    background-color: #2ECC71;
+    width: 30%;
+    margin-right: 10px;
+}
+
+.B {
+    background-color: #E74C3C;
+    width: 70%;
+}
+
+.contentA {
+    background-color: #3498DB;
+}
+
+.contentC {
+    background-color: #9B59B6;
+}
+
+.pad {
+    padding: 5px;
+}
