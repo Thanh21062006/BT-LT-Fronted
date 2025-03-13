@@ -1,0 +1,9 @@
+.style1 {
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.style2 {
+    background-color: #198754;
+}
