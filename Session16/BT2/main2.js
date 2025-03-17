@@ -1,11 +1,11 @@
 let number = 10;
-document.writeln(number + "\n");
+document.writeln(number);
 
 let price = 20.5;
-document.writeln(price + "\n");
+document.writeln(price);
 
 let str = 'Hello World';
-document.writeln(str.includes('Hello') + "\n");
+document.writeln(str.includes('Hello'));
 
 let city = "Hà Nội";
-document.writeln(city + "\n");
+document.writeln(city);
