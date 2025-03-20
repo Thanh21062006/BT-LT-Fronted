@@ -1,3 +1,7 @@
-let str = String(prompt("Nhập vào:"));
+let str = Number(prompt("Nhập vào:"));
 
-document.writeln(str);
+if(isNaN(str)){
+    alert(`là chữ cái`);
+} else{
+    alert(`không phải chữ cái!`);
+}
