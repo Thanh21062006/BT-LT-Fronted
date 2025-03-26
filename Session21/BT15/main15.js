@@ -9,7 +9,7 @@ let to5 = 0;
 let to2 = 0;
 let to1 = 0;
 
-while(money > 0){
+while(true){
     if(money >= 1000){
         if(money >= 500000){
             to500 = Math.floor(money / 500000);
@@ -47,6 +47,10 @@ while(money > 0){
             to1 = Math.floor(money / 1000);
             money = money % 1000;
             document.writeln(`1.000-${to1} tờ` + "<br>");
+        }
+
+        if(money < 1000){
+            break;
         }
     } else{
         alert("Số tiền nhập vào không hợp lệ!");

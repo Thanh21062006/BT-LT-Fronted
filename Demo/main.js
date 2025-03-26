@@ -31,7 +31,4 @@
 //     }
 // }
 
-let sum = 1;
 
-document.writeln(++sum);
-document.writeln(sum);
