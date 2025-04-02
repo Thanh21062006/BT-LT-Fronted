@@ -61,3 +61,6 @@ if(checkSoHoanHao(value)){
 } else{
     alert("Không phải số hoàn hả");
 }
+
+let numb = 3;
+console.log(typeof(numb));

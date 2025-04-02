@@ -1,6 +1,6 @@
 let arrNumb = [];
 
-for(let i = 0; i < 10; i++){
+for(let i = 0; i < 9; i++){
     while(true){
         let value = prompt(`Mời bạn nhập một số cho arr[${i}]:`);
         if(!isNaN(value)){
@@ -13,17 +13,17 @@ for(let i = 0; i < 10; i++){
 }
 
 function check(arr){
-    if(!Array.isArray(arr)){
-        return "Dữ liệu không hợp lệ!"
-    }
-    if(arr.length == 0){
-        return "Mảng trống!"
-    }
-    let arr1 = arr.filter(numb => numb % 2 == 0)
-    let totalEven = arr1.reduce((acc, curr) => acc + curr, 0);
+    // if(!Array.isArray(arr)){
+    //     return "Dữ liệu không hợp lệ!"
+    // }
+    // if(arr.length == 0){
+    //     return "Mảng trống!"
+    // }
+    // let arr1 = arr.filter(numb => numb % 2 == 0)
+    let totalEven = arr.reduce((acc, curr) => curr % 2 == 0 ? acc + curr : acc, 0);
 
-    let arr2 = arr.filter(numb => numb % 2 != 0)
-    let totalOdd = arr2.reduce((acc, curr) => acc + curr, 0);
+    // let arr2 = arr.filter(numb => numb % 2 != 0)
+    let totalOdd = arr.reduce((acc, curr) => curr % 2 != 0 ? acc + curr : acc, 0);
 
     return `totalEven = ${totalEven}
 totalOdd = ${totalOdd}`
