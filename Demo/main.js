@@ -33,34 +33,37 @@
 
 // funition
 // cách 1:
-function sum (a,b){
-    let sum = a+b;
-    console.log(sum);
-}
+// function sum (a,b){
+//     let sum = a+b;
+//     console.log(sum);
+// }
 
-sum(3, 5);
+// sum(3, 5);
 
 
-let checkSoHoanHao = (n)=>{
-    if(n < 0) return false;
-    let sum = 0;
-    for(let i = 1;i < n;i++){
-        if(n % i == 0){
-            sum += i;
-        }
-    }
-    if(sum !== n){
-        return false;
-    }
-    return true;
-}
+// let checkSoHoanHao = (n)=>{
+//     if(n < 0) return false;
+//     let sum = 0;
+//     for(let i = 1;i < n;i++){
+//         if(n % i == 0){
+//             sum += i;
+//         }
+//     }
+//     if(sum !== n){
+//         return false;
+//     }
+//     return true;
+// }
 
-let value = Number(prompt("Mời bạn nhập số bất kì để kiểm tra số hoàn hảo:"));
-if(checkSoHoanHao(value)){
-    alert("Là số hoàn hảo");
-} else{
-    alert("Không phải số hoàn hả");
-}
+// let value = Number(prompt("Mời bạn nhập số bất kì để kiểm tra số hoàn hảo:"));
+// if(checkSoHoanHao(value)){
+//     alert("Là số hoàn hảo");
+// } else{
+//     alert("Không phải số hoàn hả");
+// }
 
-let numb = 3;
-console.log(typeof(numb));
+// let numb = 3;
+// console.log(typeof(numb));
+
+// DOM
+
