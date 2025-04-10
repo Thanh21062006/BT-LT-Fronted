@@ -27,7 +27,7 @@ document.querySelector(".btn-outline-secondary").addEventListener('click', () =>
     let valu = document.querySelector(".form-control").value;
     let check = true;
     for (const key in weatherData) {
-        if(key == valu){
+        if(key == valu.trim()){
             html += `
             <h2>${key}</h2>
                 <div class="style">

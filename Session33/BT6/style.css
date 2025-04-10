@@ -1,6 +1,7 @@
 body{
     display: flex;
     justify-content: center;
+    background-color: #F0F8FF;
 }
 
 h1{
@@ -17,6 +18,7 @@ h1{
 button{
     background-color: #0066CC;
     color: white;
+    width: 25%;
 }
 
 .content {
@@ -25,11 +27,15 @@ button{
 
 .mb-3 {
     display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .form-control{
-    width: 70%;
+    width: 75%;
     padding: 10px;
+    background-color: #E8F0FE;
 }
 
 .style {
@@ -41,4 +47,10 @@ button{
 
 .icon {
     font-size: 50px;
+}
+
+.content2 {
+    background-color: #FFFFFF;
+    padding: 10px 10px 30px 10px;
+    border-radius: 10px;
 }
