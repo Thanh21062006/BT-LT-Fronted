@@ -49,4 +49,4 @@ btnAdd.addEventListener('click', () => {
     addTask();
 });
 
-renderTask();
+renderTask(); 
