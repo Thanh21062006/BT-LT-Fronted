@@ -67,3 +67,10 @@
 
 // DOM
 
+sessionStorage.setItem("name", "Cao Tất Thành");
+sessionStorage.age = 18;
+
+console.log(sessionStorage.getItem("age"));
+
+localStorage.setItem("password", "21062006");
+
