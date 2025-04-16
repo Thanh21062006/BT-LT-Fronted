@@ -1,52 +1,32 @@
-    const todoInput = document.getElementById("todo-input");
-      const addTodoButton = document.getElementById("add-todo");
-      const todoList = document.getElementById("todo-list");
+let arr = [];
+localStorage.setItem('listJob', JSON.stringify(arr));
 
-      // Load todos from localStorage
-      const loadTodos = () => {
-        const todos = JSON.parse(localStorage.getItem("todos")) || [];
-        todos.forEach((todo) => addTodoToDOM(todo));
-      };
+document.getElementById('add-todo').addEventListener('click', ()=>{
+  let job = document.querySelector('.value').value;
+  arr.push(job);
+  localStorage.setItem('listJob', JSON.stringify(arr))
+  showlist(arr);
+  document.querySelector('.value').value = '';
+})
 
-      // Save todos to localStorage
-      const saveTodos = () => {
-        const todos = Array.from(todoList.children).map(
-          (item) => item.querySelector(".todo-text").textContent
-        );
-        localStorage.setItem("todos", JSON.stringify(todos));
-      };
+function showlist(array){
+  let div = document.querySelector('.content');
+  let html = '';
 
-      // Add a todo to the DOM
-      const addTodoToDOM = (todoText) => {
-        const li = document.createElement("li");
-        li.className = "todo-item";
+  array.forEach((value,index) => {
+    html += `
+    <div class="information">
+        <span>${value}</span>
+        <button class="delt" onclick="del(${index})">Xóa</button>
+      </div>
+      <hr>
+    </div>`
+  });
+  div.innerHTML = html;
+}
 
-        const span = document.createElement("span");
-        span.className = "todo-text";
-        span.textContent = todoText;
-
-        const deleteButton = document.createElement("button");
-        deleteButton.className = "delete-button";
-        deleteButton.textContent = "Delete";
-        deleteButton.onclick = () => {
-          li.remove();
-          saveTodos();
-        };
-
-        li.appendChild(span);
-        li.appendChild(deleteButton);
-        todoList.appendChild(li);
-      };
-
-      // Add a new todo
-      addTodoButton.addEventListener("click", () => {
-        const todoText = todoInput.value.trim();
-        if (todoText) {
-          addTodoToDOM(todoText);
-          saveTodos();
-          todoInput.value = "";
-        }
-      });
-
-      // Initialize the app
-      loadTodos();
+function del(index){
+  arr.splice(index, 1);
+  localStorage.setItem('listJob', JSON.stringify(arr));
+  showlist(arr);
+}

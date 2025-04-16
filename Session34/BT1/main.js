@@ -1,3 +1,6 @@
+let arr = [{email: "tatthanh2006@gmail.com", passWord: '12345678'}];
+localStorage.setItem('information',JSON.stringify(arr));
+
 document.querySelector(".click").addEventListener('click', ()=>{
     let array = JSON.parse(localStorage.getItem('information'));
     console.log(array);
