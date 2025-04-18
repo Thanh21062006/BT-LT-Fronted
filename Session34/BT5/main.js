@@ -1,9 +1,7 @@
-// let array = [{name: "Nguyễn Văn A", position: "Developer"}, {name: "Trần Thị B", position: "Designer"}];
+let arr = JSON.parse(localStorage.getItem('listJob')) || [];
 
-// localStorage.setItem("listJob", JSON.stringify(array));
 
 document.querySelector(".but").addEventListener('click', ()=>{
-    let arr = JSON.parse(localStorage.getItem('listJob'));
     let ojb = new Object();
 
     let value1 = document.getElementById('name').value;
@@ -19,9 +17,14 @@ document.querySelector(".but").addEventListener('click', ()=>{
 
     arr.push(ojb);
     localStorage.setItem("listJob", JSON.stringify(arr));
+    showList(arr);
+    reset();
+})
+
+function showList(array) {
     let html = '';
     let div = document.querySelector(".list");
-    arr.forEach((value, index) => {
+    array.forEach((value, index) => {
         html += `
         <tr>
             <td>${index + 1}</td>
@@ -30,8 +33,7 @@ document.querySelector(".but").addEventListener('click', ()=>{
         </tr>`
     });
     div.innerHTML = html;
-    reset();
-})
+}
 
 function reset() {
     document.getElementById('name').value = '';

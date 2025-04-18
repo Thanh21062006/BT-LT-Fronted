@@ -1,0 +1,107 @@
+body {
+    position: relative;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.style {
+    width: 200px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.style1 {
+    background-color: #4094F7;
+    border: none;
+    color: white;
+}
+
+.style2{
+    width: 300px;
+}
+
+.input {
+    display: flex;
+    justify-content: right;
+}
+
+.icon {
+    position: relative;
+    margin-left: 10px;
+}
+
+.icon i{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+.but{
+    border: none;
+    background-color: transparent;
+}
+
+/* Modal */
+.addList {
+    position: absolute;
+    right: 300px;
+    /* display: none; */
+    width: 60%;
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name button{
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+.inputAdd {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.inputAdd input{
+    border-radius: 6px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.select {
+    display: flex;
+}
+
+.choi {
+    display: flex;
+    justify-content: right;
+}
+
+.can {
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: none;
+    padding: 5px 10px;
+}
+
+.add {
+    border: none;
+    border-radius: 6px;
+    background: #007AFF;
+    padding: 5px 10px;
+}
