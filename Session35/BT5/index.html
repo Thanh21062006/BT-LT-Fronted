@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+<link rel="stylesheet" href="./style.css">
+<body>
+        <div class="title">
+            <h2>Danh mục</h2>
+            <button class="style style1">Thêm mới danh mục</button>
+        </div>
+        <div class="input">
+            <select name="option" id="" class="style">
+                <option value="">Tất cả</option>
+                <option value="Đang hoạt động">Đang hoạt động</option>
+                <option value="Ngừng hoạt động">Ngừng hoạt động</option>
+            </select>
+            <div class="icon">
+                <input type="text" placeholder="Tìm kiếm danh mục theo tên" class="style style2">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Mã danh mục</th>
+                <th scope="col">Tên danh mục</th>
+                <th scope="col">Trạng thái</th>
+                <th scope="col">Chức năng</th>
+              </tr>
+            </thead>
+            <tbody class="content">
+              <!-- <tr>
+                <td>1</td>
+                <td>Quần áo</td>
+                <td><ul><li>Đang hoạt động</li></ul></td>
+                <td><button class="but"><i class="fa-solid fa-trash"></i></button> <button class="but"><i class="fa-solid fa-pen"></i></button></td>
+              </tr> -->
+            </tbody>
+          </table>
+
+          <div class="addList">
+            <div class="name">
+              <h3>Thêm mới danh mục</h3>
+              <button><i class="fa-solid fa-xmark"></i></button>
+            </div>
+
+            <div class="inputAdd">
+              <label for="id">Mã danh mục</label>
+              <input type="text">
+            </div>
+            
+            <div class="inputAdd">
+              <label for="name">Tên danh mục</label>
+              <input type="text">
+            </div>
+
+            <div class="inputAdd">
+              <label for="status">Tên danh mục</label>
+              <div class="select">
+                <label><input type="radio" name="status" checked> Đang hoạt động</label>
+                <label><input type="radio" name="status"> Ngừng hoạt động</label>
+              </div>
+              <hr>
+            </div>
+
+            <div class="choi">
+              <button class="can">Hủy</button>
+              <button class="add">Thêm</button>
+            </div>
+          </div>
+    <script src="./main.js"></script>
+</body>
+</html>

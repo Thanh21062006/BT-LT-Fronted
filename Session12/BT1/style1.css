@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.style1 {
+    width: 200px;
+    background-color: #FF6347;
+    color: white;
+}

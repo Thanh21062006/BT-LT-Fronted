@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.main {
+    display: flex;
+    width: 60%;
+    height: 200px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    margin: 5px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    margin: 5px;
+}
+
+.title div {
+    background-color: #2C3E50;
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.content div {
+    background-color: #2C3E50;
+    height: 25%;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

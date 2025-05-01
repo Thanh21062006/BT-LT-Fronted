@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    width: 80%;
+    height: auto;
+    border: 1px solid black;
+    padding-right: 20px;
+}
+
+.tab1 {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.tit {
+    background-color: blueviolet;
+    padding: 10px 0;
+    width: 100%;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.columA {
+    width: 100%;
+    margin: 10px 5px;
+}
+
+.tit1 {
+    background-color: blueviolet;
+    text-align: center;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.A {
+    margin-right: 5px;
+}
+
+.B {
+    margin-left: 5px;
+}

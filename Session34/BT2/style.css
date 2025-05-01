@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #F9F9F9;
+}
+
+#main{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.style {
+    width: 100%;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.pading {
+    padding: 5px 8px;
+    border-radius: 6px;
+    border: 1px solid #D8D8D8;
+}
+
+.clickFix{
+    margin-right: 50px;
+    border-radius: 6px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.clickDelt {
+    border-radius: 6px;
+    border: 1px solid rgb(0, 0, 0);
+}

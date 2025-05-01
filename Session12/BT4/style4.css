@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+
+}
+
+.main {
+    width: 60%;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
